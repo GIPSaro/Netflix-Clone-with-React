@@ -26,9 +26,9 @@ const MyNav = () => (
         id="right-icons"
         className="d-flex gap-3 align-items-center text-light"
       >
-        <Search size={20}></Search>
-        <span>KIDS</span>
-        <Bell size={20}></Bell>
+        <Search className="iconSearch" size={20}></Search>
+        <span className="pointer">KIDS</span>
+        <Bell className="iconBell" size={20}></Bell>
         <div className="dropdown">
           <NavDropdown
             title={<img src={avatar} alt="User Avatar" width="48px" />}

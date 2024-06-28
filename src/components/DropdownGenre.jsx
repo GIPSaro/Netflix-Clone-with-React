@@ -53,10 +53,10 @@ const Filters = () => (
       </div>
       <div id="filter-wrapper" className="d-flex align-items-center ">
         <span className="border border-light px-3 py-1">
-          <FilterLeft color="white" size={20} />
+          <FilterLeft className="icon" color="white" size={20} />
         </span>
         <span className="border border-light px-3 py-1">
-          <GridFill color="white" size={20} />
+          <GridFill className="icon" color="white" size={20} />
         </span>
       </div>
     </Navbar>
